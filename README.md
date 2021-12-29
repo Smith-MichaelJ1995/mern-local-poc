@@ -76,3 +76,12 @@ npm start
 ```
 Open [http://localhost:3000](http://localhost:3000)<br>
 
+
+Database Commands:
+Brew Installation Location: 
+- Instructions followed to configure "Brew" & "MongoDB": https://www.youtube.com/watch?v=BwVOIRX3VXk  
+- Installation Path: 
+- "brew info mongodb-community@4.4" (package installed)
+- "brew services start mongodb/brew/mongodb-community@4.4"
+- mongod --config /opt/homebrew/etc/mongod.conf
+- echo 'export PATH="/opt/homebrew/opt/mongodb-community@4.4/bin:$PATH"' >> ~/.zshrc
